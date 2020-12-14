@@ -1,4 +1,4 @@
-# PublicAPHub #
+# PublicAPIHub #
 This read me will explain the codebase,which was created to demonstrate a full-fledged application built with Vue.js including operations, routing, pagination, and more.
 
 ### What is this repository for? ###
