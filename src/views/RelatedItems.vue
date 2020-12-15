@@ -40,8 +40,8 @@ export default Vue.extend({
   },
   created () {
     getRelatedItems(response => {
-      const randomApi: Entrie = response.splice(Math.random() * (response.length - 1), 1).pop()!
       while (this.relatedApiLists.length < this.relatedApiListsSize) {
+       const randomApi: Entrie = response.splice(Math.random() * (response.length - 1), 1).pop()!
         this.relatedApiLists.push(randomApi)
       }
     })
